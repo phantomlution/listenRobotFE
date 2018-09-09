@@ -1,8 +1,7 @@
 module.exports = {
 	title: 'ListenRobot FE',
-	base: '/doc',
-	dest: 'public',
 	description: 'Just play around',
+	base: '/listenRobotFE/',
 	themeConfig: {
 		sidebar: [
 			['/project', '项目结构'],
