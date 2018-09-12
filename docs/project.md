@@ -1,0 +1,26 @@
+# 项目结构
+---
+- api
+  - 后台 api 路径	
+- assets
+  - 项目中要用到的资源
+- components
+  - 项目中使用的组件
+- directive
+  - 指令 目录
+- filters
+  - filter 目录
+- icons
+  - 项目中用到的图表
+- mock
+  - 前端数据mock
+- router 
+  - 路由配置
+- store(vuex)
+  - 全局数据状态管理
+- styles
+  - 样式文件夹
+- utils
+  - 工具类
+- views
+  - 业务中展示的页面
