@@ -11,6 +11,12 @@
 
 <script>
 export default {
+    beforeRouteEnter(to, from, next) {
+        next(vm => {
+            //路由加载结束后，初始化数据
+            vm.doInit()
+        })
+    },
 	data() {
 		state: 0 // 0加载中 | 1 加载成功 | 2 加载失败
 	},
