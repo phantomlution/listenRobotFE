@@ -6,6 +6,8 @@
 ```html
 <template>
 	<lr-page>
+	    <!-- 设置附标题 -->
+	    <div slot="subTitle">设置附标题</div>
 		<!-- 页面内容 -->
 		<div>
 		</div>

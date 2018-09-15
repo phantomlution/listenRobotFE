@@ -22,14 +22,19 @@ module.exports = {
 				title: '组件',
 				children: [
 					['/component/', '基础组件'],
-					['/component/table', '业务组件 - 表格'],
-					['/component/page', '业务组件 - 页面容器'],
-					['/component/dialog', '业务组件 - 对话框'],
-					['/component/loadingPanel', '业务组件 - 加载控制'],
-					['/component/select', '业务组件 - 状态下拉'],
-					['/component/selectLabel', '业务组件 - 状态标签渲染'],
-					['/component/expandButton', '业务组件 - 弹出式按钮'],
-					['/component/slideoutPanel', '业务组件 - 侧方面板']
+					['/component/table', '基础组件 - 表格'],
+					['/component/page', '基础组件 - 页面容器'],
+					['/component/dialog', '基础组件 - 对话框'],
+					['/component/loadingPanel', '基础组件 - 加载控制'],
+					['/component/select', '基础组件 - 状态下拉'],
+					['/component/selectLabel', '基础组件 - 状态标签渲染'],
+					['/component/expandButton', '基础组件 - 弹出式按钮'],
+					['/component/slideoutPanel', '基础组件 - 侧方面板'],
+					['/component/audioPlayer', '基础组件 - 音频播放'],
+					['/component/upload', '基础组件 - excel上传' ],
+          ['/component/downloadButton', '业务组件 - 下载按钮'],
+          ['/component/formEditor', '业务组件 - 表单编辑插件'],
+					['/component/batchUpload', '业务组件 - 批量excel上传弹窗']
 				]
 			},
 			{

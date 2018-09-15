@@ -18,7 +18,9 @@ export default {
         })
     },
 	data() {
-		state: 0 // 0加载中 | 1 加载成功 | 2 加载失败
+	    return {
+	        state: 0 // 0加载中 | 1 加载成功 | 2 加载失败
+	    }
 	},
 	methods: {
 		doInit() { // 页面初始化调用的函数

@@ -4,7 +4,7 @@
 
 ```html
 <template>
-	<lr-table :page="page" :url="url" :search="getSearchModel" :processData="processData" ref="table">
+	<lr-table :showClear="true" :page="page" :url="url" :search="getSearchModel" :processData="processData" @clear="clearForm" ref="table">
 		<div slot="search">
 			<!-- 搜索区 -->
 		</div>
@@ -35,6 +35,9 @@ export default {
 		},
 		processData(data) { // 分页数据加载后，可能需要做一些自定义的处理, 返回新的列表
 			return data
+		},
+		clearForm() {
+		    //TODO 清空筛选条件
 		}
 	}
 
