@@ -34,7 +34,8 @@ module.exports = {
 					['/component/upload', '基础组件 - excel上传' ],
           ['/component/downloadButton', '业务组件 - 下载按钮'],
           ['/component/formEditor', '业务组件 - 表单编辑插件'],
-					['/component/batchUpload', '业务组件 - 批量excel上传弹窗']
+					['/component/batchUpload', '业务组件 - 批量excel上传弹窗'],
+					['/component/followState', '业务组件 - 跟进记录']
 				]
 			},
 			{
