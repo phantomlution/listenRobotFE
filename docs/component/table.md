@@ -1,13 +1,13 @@
 # Table 
 ---
-- 对分页的逻辑进行了封装
+- 如果搜索区是 <el-form slot="search></el-form>, 将自动响应清空搜索条件事件
 
 ```html
 <template>
-	<lr-table :showClear="true" :page="page" :url="url" :search="getSearchModel" :processData="processData" @clear="clearForm" ref="table">
-		<div slot="search">
+	<lr-table :showClear="true" :page="page" :url="url" :search="getSearchModel" :processData="processData" ref="table">
+		<el-form slot="search">
 			<!-- 搜索区 -->
-		</div>
+		</el-form>
 		<div slot="action">
 			<!-- 表格操作区 -->
 		</div>
@@ -35,9 +35,6 @@ export default {
 		},
 		processData(data) { // 分页数据加载后，可能需要做一些自定义的处理, 返回新的列表
 			return data
-		},
-		clearForm() {
-		    //TODO 清空筛选条件
 		}
 	}
 
