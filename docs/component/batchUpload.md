@@ -6,5 +6,5 @@
 - text: 模块名称(例如: 线索)
 
 ```html
-<lr-batch-upload @confirm="confirm" download-url="www.baidu.com" upload-url="www.baidu.com" title="线索" />
+<lr-batch-upload :visible.sync="dialogVisible" @confirm="confirm" download-url="www.baidu.com" upload-url="www.baidu.com" title="线索" />
 ```
